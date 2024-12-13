@@ -41,16 +41,16 @@ const Home = () => {
           <div className=" min-w-[700px] ">
             <input
               onChange={(e) => searchSpace(e)}
-              className="bg-neutral-800 pb-2 pt-3 px-3 w-full rounded-t-md focus:outline-none border-t border-x border-neutral-600"
+              className="bg-neutral-800 pb-2 pt-3 px-3 w-full rounded-t-md focus:outline-none border-t border-x border-outlineWhite"
               type="text"
               placeholder="Enter space code !"
               id="inputField"
             />
             <label htmlFor="inputField">
-              <div className="bg-neutral-800 cursor-text flex justify-between rounded-b-md px-3 py-3 border-b border-x border-neutral-600">
+              <div className="bg-neutral-800 cursor-text flex justify-between rounded-b-md px-3 py-3 border-b border-x border-outlineWhite">
                 <button
                   onClick={getSpace}
-                  className="bg-neutral-800 text-sm flex items-center gap-2  font-semibold text-neutral-300 cursor-pointer hover:bg-neutral-700 border py-1 px-2 rounded-md border-neutral-600 "
+                  className="bg-neutral-800 text-sm flex items-center gap-2  font-semibold text-neutral-300 cursor-pointer hover:bg-neutral-700 border py-1 px-2 rounded-md border-outlineWhite "
                 >
                   Create Space <FaPlus className="text-white" size={13} />
                 </button>
@@ -67,7 +67,7 @@ const Home = () => {
             </label>
           </div>
           <div className="flex justify-center">
-            <button className="rounded-full text-sm border py-1 px-2 flex items-center gap-1 border-neutral-600 hover:bg-neutral-700 ">
+            <button className="rounded-full text-sm border py-1 px-2 flex items-center gap-1 border-outlineWhite hover:bg-neutral-700 ">
               Quick Guide <FaArrowUp size={10} className="rotate-45" />
             </button>
           </div>
